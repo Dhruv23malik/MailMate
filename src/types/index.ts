@@ -68,14 +68,12 @@ export interface ClassificationResult {
 }
 
 export interface DashboardStats {
-  totalEmails: number;
-  unreadCount: number;
-  assistantReplyCount: number;
-  clientReplyCount: number;
-  noReplyCount: number;
-  unclassifiedCount: number;
-  todayEmails: number;
-  thisWeekEmails: number;
+  total: number;
+  unread: number;
+  assistantReply: number;
+  clientReply: number;
+  noReply: number;
+  unclassified: number;
 }
 
 export interface NotificationProfile {

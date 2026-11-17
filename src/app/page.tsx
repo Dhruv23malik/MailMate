@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import {
   Search, Filter, Bell, Moon, Sun, Menu,
-  Bot, Sparkles, RefreshCw, Plus, ChevronDown
+  Bot, Sparkles, RefreshCw, Plus, ChevronDown, Mail
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -553,5 +553,3 @@ export default function Dashboard() {
     </div>
   );
 }
-
-import { Mail } from 'lucide-react';

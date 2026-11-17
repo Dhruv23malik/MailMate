@@ -2,6 +2,7 @@
 
 import { formatDistanceToNow } from 'date-fns';
 import { Mail, Star, MoreVertical, Bot, User, Archive, AlertTriangle } from 'lucide-react';
+import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -119,5 +120,3 @@ export function EmailCard({ email, isSelected, onSelect, onStar, onClassify }: E
     </Card>
   );
 }
-
-import { cn } from '@/lib/utils';

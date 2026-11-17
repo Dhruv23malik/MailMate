@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { ScrollArea } from '@/components/ui/scroll-area';
 import { cn } from '@/lib/utils';
 
 type ActiveView = 'inbox' | 'starred' | 'assistant-reply' | 'client-reply' | 'no-reply' | 'unclassified' | 'sent' | 'trash';
@@ -270,5 +271,3 @@ function StatCard({ label, value, icon, variant = 'default' }: {
     </div>
   );
 }
-
-import { ScrollArea } from '@/components/ui/scroll-area';
