@@ -19,7 +19,7 @@ export const config: VercelConfig = {
     routes.rewrite('/api/emails/(.*)', '/api/emails/$1'),
   ],
   crons: [
-    { path: '/api/cron/sync-emails', schedule: '0 * * * *' }, // Every hour
+    { path: '/api/cron/sync-emails', schedule: '0 0 * * *' }, // Daily at 00:00 UTC
   ],
   env: {
     MONGODB_URI: deploymentEnv('MONGODB_URI'),
